@@ -1,0 +1,39 @@
+#tooltip {
+    @apply absolute bg-[#ffffcce6] shadow-[1_1_10px_#80808099] p-[10px]
+}
+
+#title {
+    @apply text-6xl pt-8 pb-4 font-semibold;
+}
+
+#map-container {
+    @apply flex flex-col justify-center items-center;
+}
+
+#description {
+    @apply pb-4;
+}
+
+#footer {
+    @apply text-[18px] float-end ml-auto
+}
+
+#footer a {
+    @apply text-blue-700 underline pl-1;
+}
+
+#legend {
+    @apply top-[-70px] left-12 relative
+}
+
+#legend g {
+    @apply my-2
+}
+
+.legend-rect {
+    @apply px-2
+}
+
+.map-footer {
+    @apply w-[1000px] h-[100px] inline-flex;
+}
